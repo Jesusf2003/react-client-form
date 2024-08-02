@@ -19,6 +19,7 @@ export default class UserList extends Component {
     }
 
     componentDidMount() {
+        this.retrieveUsers();
     }
 
     onChangeSearchName(e) {
